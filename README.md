@@ -6,7 +6,7 @@ My personal recommendation
 
 ```json
 "engines": {
-    "node": "^16.0.0",
+    "node": "~18.15.0",
     "pnpm": "^7.0.0"
 },
 ```
