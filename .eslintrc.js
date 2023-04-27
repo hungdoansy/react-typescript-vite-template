@@ -71,5 +71,9 @@ module.exports = {
         "@typescript-eslint/no-empty-function": "off",
         "react/jsx-boolean-value": ["warn", "never"],
         "react/jsx-curly-brace-presence": "warn",
+        "@typescript-eslint/no-unused-vars": [
+            "warn",
+            { ignoreRestSiblings: true, argsIgnorePattern: "^_", caughtErrorsIgnorePattern: "^_" },
+        ],
     },
 }
