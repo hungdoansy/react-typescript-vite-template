@@ -12,8 +12,8 @@
         "preview": "vite preview",
         "lint": "eslint .",
         "lint:fix": "eslint --fix .",
-        "format": "prettier './**/*.{js,jsx,ts,tsx,css,md,json,yml,yaml}' --check --config ./.prettierrc",
-        "format:fix": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json,yml,yaml}' --config ./.prettierrc"
+        "format": "prettier './**/*.{js,jsx,ts,tsx,css,md,json,yml,yaml}' --config ./.prettierrc.js --check",
+        "format:fix": "prettier './**/*.{js,jsx,ts,tsx,css,md,json,yml,yaml}' --config ./.prettierrc.js --write"
     },
     "dependencies": {
         "react": "18.2.0",
@@ -21,6 +21,7 @@
         "vite-tsconfig-paths": "3.5.0"
     },
     "devDependencies": {
+        "@trivago/prettier-plugin-sort-imports": "3.3.1",
         "@types/react": "18.0.14",
         "@types/react-dom": "18.0.5",
         "@typescript-eslint/eslint-plugin": "5.31.0",
