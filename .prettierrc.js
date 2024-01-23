@@ -23,7 +23,7 @@ module.exports = {
             },
         },
     ],
-    importOrder: ["<THIRD_PARTY_MODULES>", "^(assets|components|core|pages|theme|types|utils)(/.+)?$", "^[./]"],
+    importOrder: ["<THIRD_PARTY_MODULES>", "^@/(assets|components|core|pages|theme|types|utils)(/.+)?$", "^[./]"],
     importOrderSeparation: true,
     importOrderSortSpecifiers: true,
 }
